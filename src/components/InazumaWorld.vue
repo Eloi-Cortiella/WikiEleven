@@ -350,6 +350,14 @@
     height: 50vh;
   }
 
+  .header-navigation nav img {
+    height: 15vh;
+  }
+
+  .header-navigation nav ul li a {
+  font-size: 25px;
+  }
+
   .video-background{
     width: 100%;
     top: 0;
@@ -377,11 +385,14 @@
 
 }
 
+@media (max-width: 1062px){
+
+}
+
 @media (max-width: 768px) {
   .header-app {
     height: 28vh;
   }
-
 
   .header-navigation nav ul li a {
     font-size: 1.25rem; /* Reducir tamaño de fuente */
